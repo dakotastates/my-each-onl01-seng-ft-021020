@@ -1,11 +1,11 @@
 def my_each(array)
   i = 0
-  collections = []
+  collection = []
   while i < array.length
 
-    collections << yield(array[i])
+    collection << yield(array[i])
     i += 1
   end
- collections
+ collection
 end
 
