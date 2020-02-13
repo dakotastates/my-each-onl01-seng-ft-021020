@@ -6,6 +6,6 @@ def my_each(array)
     collections << yield(array[i])
     i += 1
   end
-  collections
+  puts collections
 end
 
